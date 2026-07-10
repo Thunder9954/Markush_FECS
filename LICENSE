@@ -1,327 +1,540 @@
-# 📜 License Agreement
+==============================================
+        FRAGMENTED ENCRYPTED CONTAINER SYSTEM
+                    (FECS)
+            Proprietary License v1.0
+              All Rights Reserved
+==============================================
 
-## Fragmented Encrypted Container System (FECS)
+Copyright (c) 2026 Purn Vadodariya
 
----
+All rights reserved. This software and associated documentation files (the 
+"Software") are protected under intellectual property laws, including but 
+not limited to copyright laws, patent laws, and trade secret laws.
 
-<div align="center">
+==============================================
+1. DEFINITIONS
+==============================================
 
-**Proprietary License v1.0**  
-*All Rights Reserved*
+"Software" means the Fragmented Encrypted Container System (FECS), including 
+all source code, object code, documentation, specifications, and associated 
+materials, whether in source or object form.
 
-</div>
+"Licensor" means Purn Vadodariya.
 
----
+"Licensee" means any individual, entity, organization, or legal person that 
+obtains, accesses, downloads, installs, or uses the Software in any manner.
 
-## 1. Definitions
+"Commercial Use" means any use of the Software that is primarily intended 
+for or directed toward commercial advantage, monetary compensation, or 
+business operations, including but not limited to:
+  (a) Use in a commercial product or service
+  (b) Use in a for-profit organization
+  (c) Use to generate revenue or profit
+  (d) Use to support commercial activities
+  (e) Use in a business or enterprise environment
 
-| Term | Definition |
-|------|------------|
-| **"Software"** | The Fragmented Encrypted Container System (FECS), including all source code, object code, documentation, and associated materials |
-| **"Licensor"** | Purn Vadodariya |
-| **"Licensee"** | Any individual or entity that obtains access to the Software |
-| **"Commercial Use"** | Any use that is primarily intended for or directed toward commercial advantage or monetary compensation |
-| **"Derivative Work"** | Any work based upon or incorporating the Software, including modifications, enhancements, or adaptations |
-| **"Distribution"** | Any act of making the Software available to third parties |
+"Derivative Work" means any work based upon or incorporating the Software, 
+including modifications, enhancements, adaptations, translations, or any 
+other changes to the Software.
 
----
+"Distribution" means any act of making the Software available to third 
+parties, including but not limited to:
+  (a) Copying, transferring, or sharing
+  (b) Uploading or downloading
+  (c) Selling, renting, or leasing
+  (d) Providing access through networks
+  (e) Embedding in other software
 
-## 2. Grant of Rights
+"Confidential Information" means all information disclosed or made available 
+by the Licensor to the Licensee, including but not limited to:
+  (a) Software code and algorithms
+  (b) Technical specifications and documentation
+  (c) Business strategies and plans
+  (d) Security protocols and mechanisms
+  (e) Trade secrets and proprietary methods
 
-### 2.1 Evaluation License
-The Licensor grants the Licensee a non-exclusive, non-transferable, revocable right to:
+"Main Header" means the primary header structure containing critical 
+metadata for file reconstruction.
 
-- View and evaluate the Software's documentation and specifications
-- Assess the Software's capabilities for potential licensing
-- Conduct internal proof-of-concept testing (with prior written consent)
+"Recovery Header" means the secondary header structure enabling file 
+recovery in case of corruption.
 
-### 2.2 Restrictions
-The Licensee may NOT:
+"Authenticated Encryption" means encryption that simultaneously provides 
+confidentiality, integrity, and authenticity.
 
-- Copy, modify, or create derivative works of the Software
-- Reverse engineer, decompile, or disassemble the Software
-- Distribute, sublicense, or transfer the Software to any third party
-- Use the Software for any Commercial Use without a separate Commercial License Agreement
-- Remove any proprietary notices or labels from the Software
-- Circumvent any security or encryption mechanisms within the Software
-- Use the Software for any illegal or unauthorized purpose
+==============================================
+2. GRANT OF RIGHTS
+==============================================
 
----
+2.1 Evaluation License
+------------------------
+Subject to the terms and conditions of this Agreement, the Licensor grants 
+the Licensee a non-exclusive, non-transferable, revocable, and limited 
+right to:
 
-## 3. Commercial Licensing
+  (a) View and evaluate the Software's documentation and specifications
+  (b) Assess the Software's capabilities for potential licensing
+  (c) Conduct internal proof-of-concept testing (with prior written consent)
+  (d) Evaluate the Software for compatibility with existing systems
 
-### 3.1 Commercial License Agreement
-For Commercial Use, the Licensee must enter into a separate Commercial License Agreement with the Licensor. The Commercial License Agreement shall include:
+2.2 Research License (Academic/Non-Commercial)
+------------------------
+Subject to the terms and conditions of this Agreement, the Licensor grants 
+the Licensee a non-exclusive, non-transferable, revocable, and limited 
+right to:
 
-- **License Scope**: Specific use cases and deployment parameters
-- **Fee Structure**: One-time licensing fees or recurring royalties
-- **Support Services**: Maintenance, updates, and technical support
-- **SLA Guarantees**: Performance and availability commitments
-- **Source Code Access**: Escrow arrangements (if applicable)
-- **Indemnification**: Mutual indemnification provisions
+  (a) Use the Software for academic research purposes
+  (b) Study the Software's architecture and design
+  (c) Publish research papers about the Software (with prior written consent)
+  (d) Use the Software in educational settings
 
-### 3.2 Enterprise Licensing
+2.3 Restrictions
+------------------------
+The Licensee may NOT, under any circumstances:
+
+  (a) Copy, reproduce, or duplicate the Software in whole or in part
+  (b) Modify, adapt, or create derivative works from the Software
+  (c) Reverse engineer, decompile, disassemble, or attempt to derive 
+      source code from the Software
+  (d) Distribute, sublicense, rent, lease, or transfer the Software to 
+      any third party
+  (e) Use the Software for any Commercial Use without a separate 
+      Commercial License Agreement
+  (f) Remove, alter, or obscure any proprietary notices, labels, or 
+      marks from the Software
+  (g) Circumvent, bypass, or disable any security or encryption 
+      mechanisms within the Software
+  (h) Use the Software for any illegal, unauthorized, or unethical purpose
+  (i) Share access credentials or licensing keys with unauthorized parties
+  (j) Publish or disclose any benchmark results without written consent
+
+==============================================
+3. COMMERCIAL LICENSING
+==============================================
+
+3.1 Commercial License Agreement
+------------------------
+For any Commercial Use, the Licensee must enter into a separate Commercial 
+License Agreement with the Licensor. The Commercial License Agreement 
+shall include:
+
+  (a) License Scope: Specific use cases and deployment parameters
+  (b) Fee Structure: One-time licensing fees or recurring royalties
+  (c) Support Services: Maintenance, updates, and technical support
+  (d) Service Level Agreements: Performance and availability commitments
+  (e) Source Code Access: Escrow arrangements (if applicable)
+  (f) Indemnification: Mutual indemnification provisions
+  (g) Term and Termination: Duration and termination conditions
+
+3.2 Enterprise Licensing
+------------------------
 Enterprise licenses offer additional benefits:
 
-| Feature | Standard | Enterprise |
-|---------|----------|------------|
-| Source Code Access | ❌ | ✅ |
-| Custom Modifications | ❌ | ✅ |
-| Priority Support | ❌ | ✅ |
-| White-Labeling | ❌ | ✅ |
-| Unlimited Deployments | ❌ | ✅ |
-| Training & Onboarding | ❌ | ✅ |
+  +------------------+------------------+------------------+
+  | Feature          | Standard         | Enterprise       |
+  +------------------+------------------+------------------+
+  | Source Code      | No               | Yes              |
+  | Access           |                  |                  |
+  +------------------+------------------+------------------+
+  | Custom           | No               | Yes              |
+  | Modifications    |                  |                  |
+  +------------------+------------------+------------------+
+  | Priority Support | No               | Yes              |
+  +------------------+------------------+------------------+
+  | White-Labeling   | No               | Yes              |
+  +------------------+------------------+------------------+
+  | Unlimited        | No               | Yes              |
+  | Deployments      |                  |                  |
+  +------------------+------------------+------------------+
+  | Training &       | No               | Yes              |
+  | Onboarding       |                  |                  |
+  +------------------+------------------+------------------+
 
----
+==============================================
+4. INTELLECTUAL PROPERTY RIGHTS
+==============================================
 
-## 4. Intellectual Property Rights
+4.1 Ownership
+------------------------
+All intellectual property rights in and to the Software, including but 
+not limited to:
 
-### 4.1 Ownership
-All intellectual property rights in and to the Software, including but not limited to:
-
-- Algorithms and methods
-- Source code and object code
-- Documentation and specifications
-- Branding, logos, and trademarks
-- Innovations, patents, and trade secrets
+  (a) Algorithms and methods
+  (b) Source code and object code
+  (c) Documentation and specifications
+  (d) Branding, logos, and trademarks
+  (e) Innovations, patents, and trade secrets
+  (f) All copyrights, patents, trademarks, and trade secrets
 
 are and shall remain the sole and exclusive property of the Licensor.
 
-### 4.2 Patent Rights
-The Licensor reserves all patent rights related to the Software's novel methods, including but not limited to:
+4.2 Patent Rights
+------------------------
+The Licensor reserves all patent rights related to the Software's novel 
+methods, including but not limited to:
 
-- Fragmented Container Architecture
-- Dynamic Identity Mapping System
-- Redundant Metadata Recovery Mechanism
-- Smart Decoy Generation Technology
-- Chain-Based Integrity Verification
+  (a) Fragmented Container Architecture
+  (b) Dynamic Identity Mapping System
+  (c) Redundant Metadata Recovery Mechanism
+  (d) Smart Decoy Generation Technology
+  (e) Chain-Based Integrity Verification
 
-### 4.3 Trade Secrets
+4.3 Trade Secrets
+------------------------
 The Software contains proprietary trade secrets including:
 
-- Per-block key derivation algorithms
-- Metadata distribution patterns
-- Block assembly and disassembly methods
-- Recovery protocol implementations
-- Encryption orchestration processes
+  (a) Per-block key derivation algorithms
+  (b) Metadata distribution patterns
+  (c) Block assembly and disassembly methods
+  (d) Recovery protocol implementations
+  (e) Encryption orchestration processes
+  (f) Header protection mechanisms
+  (g) Randomization algorithms
 
-These trade secrets are disclosed only to Licensees with appropriate confidentiality agreements.
+These trade secrets are disclosed only to Licensees with appropriate 
+confidentiality agreements. The Licensee acknowledges that the Software 
+contains valuable trade secrets and agrees to protect them accordingly.
 
----
+4.4 Copyright
+------------------------
+The Software is copyrighted work. Unauthorized copying, distribution, 
+or modification is prohibited by law. Copyright notice:
 
-## 5. Confidentiality Obligations
+  Copyright (c) 2026 Purn Vadodariya. All Rights Reserved.
 
-### 5.1 Confidential Information
-The Licensee acknowledges that the Software and all related materials constitute confidential and proprietary information of the Licensor.
+==============================================
+5. CONFIDENTIALITY OBLIGATIONS
+==============================================
 
-### 5.2 Non-Disclosure
+5.1 Confidential Information
+------------------------
+The Licensee acknowledges that the Software and all related materials 
+constitute confidential and proprietary information of the Licensor.
+
+5.2 Non-Disclosure
+------------------------
 The Licensee shall:
 
-- Maintain the Software in strict confidence
-- Not disclose any aspect of the Software to third parties
-- Implement reasonable security measures to protect the Software
-- Limit internal access to employees with a need to know
-- Execute Non-Disclosure Agreements with all personnel
-- Not use the Software for competitive analysis
+  (a) Maintain the Software in strict confidence
+  (b) Not disclose any aspect of the Software to third parties
+  (c) Implement reasonable security measures to protect the Software
+  (d) Limit internal access to employees with a need to know
+  (e) Execute Non-Disclosure Agreements with all personnel
+  (f) Not use the Software for competitive analysis
+  (g) Not publish or disclose any findings or results
 
-### 5.3 Duration
-Confidentiality obligations survive termination of this Agreement for a period of **ten (10) years**.
+5.3 Duration
+------------------------
+Confidentiality obligations survive termination of this Agreement for 
+a period of ten (10) years from the date of termination or the date of 
+last disclosure, whichever is later.
 
----
+==============================================
+6. WARRANTY DISCLAIMER
+==============================================
 
-## 6. Warranty Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY 
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
 
-THE SOFTWARE IS PROVIDED **"AS IS"** AND **"AS AVAILABLE"** WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
+  (a) FITNESS FOR A PARTICULAR PURPOSE
+  (b) MERCHANTABILITY
+  (c) NON-INFRINGEMENT
+  (d) ACCURACY OR RELIABILITY
+  (e) ERROR-FREE OPERATION
+  (f) SECURITY OR ABSENCE OF VULNERABILITIES
+  (g) COMPATIBILITY WITH OTHER SYSTEMS
 
-- FITNESS FOR A PARTICULAR PURPOSE
-- MERCHANTABILITY
-- NON-INFRINGEMENT
-- ACCURACY OR RELIABILITY
-- ERROR-FREE OPERATION
+THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS 
+WITH THE LICENSEE. SHOULD THE SOFTWARE PROVE DEFECTIVE, THE LICENSEE 
+ASSUMES THE COST OF ALL NECESSARY SERVICING, REPAIR, OR CORRECTION.
 
----
+THE LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL MEET THE LICENSEE'S 
+REQUIREMENTS OR THAT ITS OPERATION WILL BE UNINTERRUPTED OR ERROR-FREE.
 
-## 7. Limitation of Liability
+==============================================
+7. LIMITATION OF LIABILITY
+==============================================
 
 IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY:
 
-- DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
-- LOSS OF PROFITS, REVENUE, OR BUSINESS
-- LOSS OF DATA OR INFORMATION
-- DAMAGES RELATED TO SECURITY BREACHES
+  (a) DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+  (b) LOSS OF PROFITS, REVENUE, OR BUSINESS
+  (c) LOSS OF DATA OR INFORMATION
+  (d) LOSS OF GOODWILL OR REPUTATION
+  (e) COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES
+  (f) DAMAGES RELATED TO SECURITY BREACHES
+  (g) DAMAGES RELATED TO UNAUTHORIZED ACCESS
+  (h) DAMAGES RELATED TO DATA CORRUPTION
 
-The total liability of the Licensor shall not exceed the total fees paid by the Licensee, if any.
+THE TOTAL LIABILITY OF THE LICENSOR, WHETHER IN CONTRACT, TORT (INCLUDING 
+NEGLIGENCE), OR OTHERWISE, SHALL NOT EXCEED THE TOTAL FEES PAID BY THE 
+LICENSEE, IF ANY. IN THE EVENT THAT NO FEES WERE PAID, THE LICENSOR'S 
+TOTAL LIABILITY SHALL BE LIMITED TO ONE HUNDRED U.S. DOLLARS ($100.00).
 
----
+==============================================
+8. INDEMNIFICATION
+==============================================
 
-## 8. Indemnification
+8.1 By Licensor
+------------------------
+The Licensor shall indemnify, defend, and hold harmless the Licensee 
+against third-party claims that the Software infringes any intellectual 
+property rights, provided that:
 
-### 8.1 By Licensor
-The Licensor shall indemnify the Licensee against third-party claims that the Software infringes any intellectual property rights, provided that:
+  (a) The Licensee promptly notifies the Licensor in writing
+  (b) The Licensor has sole control of the defense and settlement
+  (c) The Licensee provides reasonable cooperation and assistance
+  (d) The Licensee does not admit any liability or make any settlement
 
-- The Licensee promptly notifies the Licensor
-- The Licensor has sole control of the defense
-- The Licensee provides reasonable cooperation
+8.2 By Licensee
+------------------------
+The Licensee shall indemnify, defend, and hold harmless the Licensor 
+against claims arising from:
 
-### 8.2 By Licensee
-The Licensee shall indemnify the Licensor against claims arising from:
+  (a) Unauthorized use of the Software
+  (b) Violation of this Agreement
+  (c) Modification or misuse of the Software
+  (d) Distribution without proper licensing
+  (e) Violation of applicable laws or regulations
 
-- Unauthorized use of the Software
-- Violation of this Agreement
-- Modification or misuse of the Software
-- Distribution without proper licensing
+==============================================
+9. TERMINATION
+==============================================
 
----
-
-## 9. Termination
-
-### 9.1 Grounds for Termination
+9.1 Grounds for Termination
+------------------------
 This Agreement may be terminated by either party upon:
 
-- Material breach by the other party (with 30 days to cure)
-- Insolvency or bankruptcy of the other party
-- Unauthorized distribution or modification
-- Violation of confidentiality obligations
-- Any illegal use of the Software
+  (a) Material breach by the other party (with 30 days to cure)
+  (b) Insolvency or bankruptcy of the other party
+  (c) Unauthorized distribution or modification
+  (d) Violation of confidentiality obligations
+  (e) Any illegal use of the Software
+  (f) Failure to pay licensing fees
+  (g) Breach of any provision of this Agreement
 
-### 9.2 Effect of Termination
+9.2 Effect of Termination
+------------------------
 Upon termination, the Licensee shall:
 
-- Cease all use of the Software
-- Delete all copies of the Software
-- Return all proprietary materials
-- Certify compliance in writing
-- Not retain any partial copies or derivatives
+  (a) Cease all use of the Software immediately
+  (b) Delete all copies of the Software in possession
+  (c) Return all proprietary materials to the Licensor
+  (d) Certify compliance in writing
+  (e) Not retain any partial copies or derivatives
+  (f) Not continue any development based on the Software
 
----
+==============================================
+10. GOVERNING LAW
+==============================================
 
-## 10. Governing Law
+This Agreement shall be governed by and construed in accordance with 
+the laws of:
 
-This Agreement shall be governed by and construed in accordance with the laws of:
+  Jurisdiction: [Your Country/State]
+  Venue: [Your City, Court Name]
+  Conflict of Laws: The United Nations Convention on Contracts for the 
+  International Sale of Goods shall not apply
 
-**Jurisdiction**: [Your Country/State]  
-**Venue**: [Your City, Court Name]  
-**Dispute Resolution**: Binding arbitration in accordance with the rules of [Arbitration Body]
+Dispute Resolution:
+  (a) Negotiation: The parties shall first attempt to resolve disputes 
+      through good-faith negotiations
+  (b) Mediation: If negotiation fails, the parties shall submit to 
+      mediation by a mutually agreed mediator
+  (c) Arbitration: If mediation fails, disputes shall be resolved 
+      through binding arbitration in accordance with the rules of 
+      [Arbitration Body]
+  (d) Injunctive Relief: Nothing in this section shall prevent either 
+      party from seeking injunctive relief in court
 
----
+==============================================
+11. LICENSING TIERS
+==============================================
 
-## 11. Licensing Tiers
+  +------------------+------------------+------------------+----------+
+  | Tier             | Use Case         | Access Level     | Cost     |
+  +------------------+------------------+------------------+----------+
+  | Research         | Academic/        | Documentation    | Free     |
+  |                  | Research         | Only             |          |
+  +------------------+------------------+------------------+----------+
+  | Evaluation       | Proof of Concept | Limited Demo     | Free     |
+  +------------------+------------------+------------------+----------+
+  | Startup          | Small Business   | Core             | Contact  |
+  |                  | (< 50 employees) | Implementation   |          |
+  +------------------+------------------+------------------+----------+
+  | Professional     | Medium Business  | Full             | Contact  |
+  |                  | (50-500 employees)| Implementation   |          |
+  +------------------+------------------+------------------+----------+
+  | Enterprise       | Large Enterprise | Complete         | Contact  |
+  |                  | (500+ employees) | Solution         |          |
+  +------------------+------------------+------------------+----------+
+  | Government       | Public Sector    | Custom Package   | Contact  |
+  +------------------+------------------+------------------+----------+
 
-| Tier | Use Case | Access Level | Cost |
-|------|----------|--------------|------|
-| **Research** | Academic/Research | Documentation Only | Free |
-| **Evaluation** | Proof of Concept | Limited Demo | Free |
-| **Startup** | Small Business | Core Implementation | $X,XXX |
-| **Professional** | Medium Business | Full Implementation | $XX,XXX |
-| **Enterprise** | Large Enterprise | Complete Solution | Contact Us |
-| **Government** | Public Sector | Custom Package | Contact Us |
+For pricing information, please contact the Licensor directly.
 
----
+==============================================
+12. TECHNICAL SUPPORT & UPDATES
+==============================================
 
-## 12. Technical Support & Updates
+12.1 Support Packages
+------------------------
 
-### 12.1 Support Packages
+  +------------------+----------+----------+----------+----------+
+  | Feature          | Basic    | Profess- | Premium  | Enter-   |
+  |                  |          | ional    |          | prise    |
+  +------------------+----------+----------+----------+----------+
+  | Email Support    | Yes      | Yes      | Yes      | Yes      |
+  +------------------+----------+----------+----------+----------+
+  | Phone Support    | No       | Business | 24/7     | Dedicated|
+  |                  |          | Hours    |          |          |
+  +------------------+----------+----------+----------+----------+
+  | Response Time    | 72 hours | 24 hours | 4 hours  | 1 hour   |
+  +------------------+----------+----------+----------+----------+
+  | Major Updates    | Yes      | Yes      | Yes      | Yes      |
+  +------------------+----------+----------+----------+----------+
+  | Minor Updates    | No       | Yes      | Yes      | Yes      |
+  +------------------+----------+----------+----------+----------+
+  | Security Patches | Yes      | Yes      | Yes      | Yes      |
+  +------------------+----------+----------+----------+----------+
+  | Custom Updates   | No       | No       | No       | Yes      |
+  +------------------+----------+----------+----------+----------+
 
-| Tier | Email Support | Phone Support | Response Time | Updates |
-|------|---------------|---------------|---------------|---------|
-| **Basic** | ✅ | ❌ | 72 hours | Major |
-| **Professional** | ✅ | ✅ (Business Hours) | 24 hours | Major + Minor |
-| **Premium** | ✅ | ✅ (24/7) | 4 hours | All Updates |
-| **Enterprise** | ✅ | ✅ (Dedicated) | 1 hour | All Updates + Custom |
+12.2 Update Policy
+------------------------
+  (a) Major Updates: New features, architectural changes
+  (b) Minor Updates: Bug fixes, performance improvements
+  (c) Security Patches: Critical vulnerability fixes (available to 
+      all licensed users)
+  (d) Custom Updates: Tailored modifications for enterprise customers
 
-### 12.2 Update Policy
-- **Major Updates**: New features, architectural changes
-- **Minor Updates**: Bug fixes, performance improvements
-- **Security Patches**: Critical vulnerability fixes (available to all licensed users)
+==============================================
+13. COMPLIANCE & AUDITING
+==============================================
 
----
+13.1 Right to Audit
+------------------------
+The Licensor reserves the right to audit the Licensee's use of the 
+Software to ensure compliance with this Agreement, with reasonable 
+notice not less than fourteen (14) days.
 
-## 13. Compliance & Auditing
-
-### 13.1 Right to Audit
-The Licensor reserves the right to audit the Licensee's use of the Software to ensure compliance with this Agreement, with reasonable notice.
-
-### 13.2 Record Keeping
+13.2 Record Keeping
+------------------------
 The Licensee shall maintain accurate records of:
 
-- Number of installations
-- Number of users
-- Deployment locations
-- Purpose of use
+  (a) Number of installations
+  (b) Number of users
+  (c) Deployment locations
+  (d) Purpose of use
+  (e) Any derivative works created
 
----
+13.3 Audit Process
+------------------------
+  (a) Audits shall be conducted during regular business hours
+  (b) The Licensor shall bear the cost of audits
+  (c) If non-compliance is found, the Licensee shall bear the audit costs
+  (d) The Licensee shall remedy any non-compliance promptly
 
-## 14. Export Control
+==============================================
+14. EXPORT CONTROL
+==============================================
 
-The Software may be subject to export control laws. The Licensee shall comply with all applicable laws and regulations, including:
+The Software may be subject to export control laws and regulations. 
+The Licensee shall comply with all applicable laws and regulations, 
+including but not limited to:
 
-- Not exporting to embargoed countries
-- Not exporting to prohibited entities
-- Not using for prohibited purposes
-- Obtaining necessary export licenses
+  (a) Not exporting to embargoed countries
+  (b) Not exporting to prohibited entities
+  (c) Not using for prohibited purposes
+  (d) Obtaining necessary export licenses
+  (e) Not re-exporting without proper authorization
 
----
+==============================================
+15. GENERAL PROVISIONS
+==============================================
 
-## 15. General Provisions
+15.1 Entire Agreement
+------------------------
+This Agreement constitutes the entire agreement between the parties 
+and supersedes all prior and contemporaneous agreements, proposals, 
+representations, and understandings, whether written or oral.
 
-### 15.1 Entire Agreement
-This Agreement constitutes the entire agreement between the parties and supersedes all prior agreements.
+15.2 Amendment
+------------------------
+This Agreement may only be amended or modified in writing, signed by 
+both parties. Any waiver of any provision shall not be effective unless 
+in writing and signed by the waiving party.
 
-### 15.2 Amendment
-This Agreement may only be amended in writing, signed by both parties.
+15.3 Severability
+------------------------
+If any provision of this Agreement is found to be invalid, illegal, 
+or unenforceable, the remaining provisions shall remain in full force 
+and effect, and the invalid provision shall be replaced with a valid 
+provision that most closely matches the parties' intent.
 
-### 15.3 Severability
-If any provision is found to be unenforceable, the remaining provisions remain in full force.
+15.4 Assignment
+------------------------
+The Licensee may not assign this Agreement or any rights hereunder 
+without the prior written consent of the Licensor. Any attempted 
+assignment shall be void.
 
-### 15.4 Assignment
-The Licensee may not assign this Agreement without prior written consent.
+15.5 Waiver
+------------------------
+Failure or delay in exercising any right or remedy shall not operate 
+as a waiver thereof, nor shall any single or partial exercise preclude 
+any other or further exercise of any right or remedy.
 
-### 15.5 Waiver
-Failure to enforce any right does not constitute a waiver of that right.
+15.6 Counterparts
+------------------------
+This Agreement may be executed in counterparts, each of which shall 
+be deemed an original, and all of which together shall constitute 
+one and the same instrument.
 
-### 15.6 Counterparts
-This Agreement may be executed in counterparts, each of which shall be deemed an original.
+15.7 Notices
+------------------------
+All notices shall be in writing and shall be deemed given when 
+delivered personally, sent by email, or sent by certified mail.
 
----
+==============================================
+16. CONTACT INFORMATION
+==============================================
 
-## 16. Contact Information
+For Licensing Inquiries:
+------------------------
+  Name: Purn Vadodariya
+  Title: Architect & Lead Developer
 
-### For Licensing Inquiries:
+  Email: purn872008@gmail.com
+  LinkedIn: https://www.linkedin.com/in/purnvadodariya
 
-**Name**: Purn Vadodariya  
-**Title**: Architect & Lead Developer  
+For Commercial Inquiries, please include:
+------------------------
+  (a) Company/Organization name
+  (b) Intended use case
+  (c) Deployment scale
+  (d) Budget range
+  (e) Preferred contact method
+  (f) Timeline for implementation
 
-**Email**: [purnvadodariya57@gmail.com](mailto:purnvadodariya57@gmail.com)  
-**LinkedIn**: [Purn Vadodariya](https://www.linkedin.com/in/purnvadodariya)
+==============================================
+17. ACCEPTANCE
+==============================================
 
-### For Commercial Inquiries:
-Please include in your inquiry:
-- Company/Organization name
-- Intended use case
-- Deployment scale
-- Budget range
-- Preferred contact method
+By accessing, downloading, installing, or using the Software, the 
+Licensee acknowledges that they have read, understood, and agree 
+to be bound by the terms of this Agreement.
 
----
+If the Licensee does not agree to all terms of this Agreement, the 
+Licensee is prohibited from using the Software and must immediately 
+cease all use and delete all copies.
 
-## 17. Acceptance
+==============================================
+        END OF LICENSE AGREEMENT
+==============================================
 
-By accessing, downloading, or using the Software, the Licensee acknowledges that they have read, understood, and agree to be bound by the terms of this Agreement.
+Copyright (c) 2026 Purn Vadodariya. All Rights Reserved.
 
----
-
-<div align="center">
-
-**By proceeding, you agree to all terms above.**
-
----
-
-**FECS** - Where Security Meets Innovation
-
-*© 2026 Purn Vadodariya. All Rights Reserved.*
-
----
-
-[⬆ Back to Top](#-license-agreement)
-
-</div>
+==============================================
+                        FECS
+            Where Security Meets Innovation
+==============================================
