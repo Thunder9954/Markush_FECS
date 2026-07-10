@@ -298,7 +298,7 @@ Blocks are linked through a verification chain, creating tamper-evident storage 
 - Zero-trust security frameworks
 
 ### 📧 Contact:
-- **Email**: [purnvadodariya57@gmail.com](mailto:purnvadodariya57@gmail.com)
+- **Email**: [purn872008@gmail.com](mailto:purn872008@gmail.com)
 - **LinkedIn**: [Purn Vadodariya](https://www.linkedin.com/in/purnvadodariya)
 
 ---
@@ -322,4 +322,3 @@ This technology is protected under intellectual property laws. Inquiries regardi
 *© 2026 Purn Vadodariya. All rights reserved.*
 
 </div>
----
