@@ -1,4 +1,3 @@
-I understand! Here's a clean, GitHub-compatible README.md that uses proper Mermaid syntax and handles all special characters correctly. The diagrams will render on GitHub (they support Mermaid natively).
 
 ---
 
