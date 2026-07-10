@@ -10,6 +10,8 @@
 [![Security](https://img.shields.io/badge/Security-Military%20Grade-red)](#)
 [![License](https://img.shields.io/badge/License-Proprietary-orange)](#)
 [![Version](https://img.shields.io/badge/Version-1.0-blue)](#)
+[![Hardware](https://img.shields.io/badge/Hardware-Validated-success)](#)
+[![Cloud](https://img.shields.io/badge/Cloud-Ready-9cf)](#)
 
 </div>
 
@@ -33,6 +35,7 @@ The system's true innovation lies in how it orchestrates known cryptographic pri
 | **Data Recovery** | Complex and unreliable | Automated self-healing |
 | **Compliance** | Hard to audit | Built-in verification |
 | **Deniability** | Not available | Inherent plausible deniability |
+| **Hardware Attacks** | Software-only protection | Hardware validation support |
 
 ---
 
@@ -53,59 +56,141 @@ FECS doesn't just encrypt data—it transforms how data is stored at a fundament
 - ✅ **Automatic Recovery** - Data heals itself from corruption
 - ✅ **Tamper-Evident** - Any modification is immediately detectable
 - ✅ **Future-Proof** - Designed with quantum resistance in mind
+- ✅ **Hardware Authenticated** - Validated on physical hardware platforms
+- ✅ **Cloud-Ready** - Optimized for cloud deployment
 
 ---
 
-## 🏗️ High-Level Architecture
+## 🏗️ High-Level System Concept
 
 *(Conceptual overview - Implementation details are proprietary and protected)*
 
 ```mermaid
 graph TB
-    subgraph "Core Capabilities"
-        A[Advanced Encryption Engine]
-        B[Distributed Fragmentation]
-        C[Intelligent Obfuscation]
-        D[Self-Healing Recovery]
-        E[Continuous Verification]
+    subgraph "Input"
+        A[Data Source]
     end
     
-    subgraph "Protection Layers"
-        L1[Layer 1: Data Protection]
-        L2[Layer 2: Identity Management]
-        L3[Layer 3: Integrity Verification]
-        L4[Layer 4: Recovery System]
-        L5[Layer 5: Audit & Compliance]
+    subgraph "Security Processing"
+        B[Protection Engine]
+        C[Distribution System]
+        D[Verification Layer]
     end
     
-    A --> L1
-    B --> L1
-    C --> L2
-    D --> L3
-    E --> L4
-    L4 --> L5
+    subgraph "Output"
+        E[Secure Storage]
+        F[Recovery System]
+    end
     
-    style A fill:#4CAF50,color:#fff
-    style B fill:#2196F3,color:#fff
-    style C fill:#FF9800,color:#fff
-    style D fill:#9C27B0,color:#fff
-    style E fill:#F44336,color:#fff
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    D --> F
+    
+    style A fill:#e3f2fd
+    style B fill:#4CAF50,color:#fff
+    style C fill:#2196F3,color:#fff
+    style D fill:#FF9800,color:#fff
+    style E fill:#9C27B0,color:#fff
+    style F fill:#F44336,color:#fff
 ```
 
 ---
 
-## 🔐 Security Features
+## 🔐 Security Overview
 
 ```mermaid
 graph LR
-    subgraph "Protection Stack"
-        P1[Multi-Factor Encryption]
-        P2[Distributed Key Management]
-        P3[Continuous Authentication]
-        P4[Real-Time Integrity Check]
-        P5[Automated Recovery]
-        P6[Plausible Deniability]
+    subgraph "Protection Layers"
+        P1[Encryption Layer]
+        P2[Distribution Layer]
+        P3[Verification Layer]
+        P4[Recovery Layer]
     end
+    
+    P1 --> P2
+    P2 --> P3
+    P3 --> P4
+    
+    style P1 fill:#4CAF50,color:#fff
+    style P2 fill:#2196F3,color:#fff
+    style P3 fill:#FF9800,color:#fff
+    style P4 fill:#9C27B0,color:#fff
+```
+
+---
+
+## 🔄 Data Flow Concept
+
+```mermaid
+flowchart LR
+    subgraph Phase1["Stage 1: Preparation"]
+        A[Input] --> B[Process]
+    end
+    
+    subgraph Phase2["Stage 2: Protection"]
+        B --> C[Protect]
+        C --> D[Verify]
+    end
+    
+    subgraph Phase3["Stage 3: Storage"]
+        D --> E[Store]
+        E --> F[Secure Output]
+    end
+    
+    style A fill:#e3f2fd
+    style B fill:#4CAF50,color:#fff
+    style C fill:#2196F3,color:#fff
+    style D fill:#FF9800,color:#fff
+    style E fill:#9C27B0,color:#fff
+    style F fill:#F44336,color:#fff
+```
+
+---
+
+## 🛡️ Protection Architecture
+
+```mermaid
+graph TB
+    subgraph "Security Stack"
+        S1[Layer 1: Core Protection]
+        S2[Layer 2: Identity Management]
+        S3[Layer 3: Integrity Verification]
+        S4[Layer 4: Recovery System]
+        S5[Layer 5: Audit & Compliance]
+    end
+    
+    S1 --> S2
+    S2 --> S3
+    S3 --> S4
+    S4 --> S5
+    
+    style S1 fill:#4CAF50,color:#fff
+    style S2 fill:#2196F3,color:#fff
+    style S3 fill:#FF9800,color:#fff
+    style S4 fill:#9C27B0,color:#fff
+    style S5 fill:#F44336,color:#fff
+```
+
+---
+
+## 🔄 Recovery Process Overview
+
+```mermaid
+flowchart TB
+    subgraph "Recovery Flow"
+        A[Detection] --> B[Assessment]
+        B --> C[Recovery]
+        C --> D[Verification]
+        D --> E[Restoration]
+    end
+    
+    style A fill:#e3f2fd
+    style B fill:#FFF9C4
+    style C fill:#4CAF50,color:#fff
+    style D fill:#2196F3,color:#fff
+    style E fill:#9C27B0,color:#fff
 ```
 
 ---
@@ -166,10 +251,11 @@ Integrity:          ████████████████████
 | 🔬 **Research** | Research Data | Secure collaboration |
 | 🌐 **Cloud Providers** | Storage Security | Differentiated offering |
 | 🏗️ **Critical Infrastructure** | Sensitive Systems | Maximum protection |
+| 🖥️ **Edge Computing** | IoT Data | Hardware-validated security |
 
 ---
 
-## 🛠️ Technical Overview
+## 🛠️ Technical Specifications
 
 ### **Core Components**
 | Component | Purpose |
@@ -203,6 +289,95 @@ Integrity:          ████████████████████
 
 ---
 
+## 🖥️ Hardware & Cloud Validation
+
+FECS has been successfully test across in low level hardware :
+
+##  Hardware and Module Overview
+
+### ESP32 Modules (Three Units)
+
+**ESP32-A – Hardware Authentication Controller**
+- Receives RFID UID from Arduino Uno
+- Verifies authorized users
+- Generates authentication status/token
+- Acts as the primary hardware security gate
+
+**ESP32-B – Session Control & Command Validation**
+- Validates each requested operation
+- Enforces session timeout and re-authentication
+- Prevents replay or unauthorized reuse of sessions
+
+**ESP32-C – System Health & Tamper Monitor**
+- Monitors power and reset conditions
+- Sends heartbeat signals
+- Revokes access on abnormal behavior
+
+---
+
+### Raspberry Pi Zero 2 W – Main Processing Unit
+
+The Raspberry Pi Zero 2 W acts as the **central brain** of the system.
+
+Functions:
+- Automatically boots into headless mode
+- Auto-starts LAN-based web application
+- Performs file encryption and decryption
+- Manages cloud upload and download using API keys
+- Stores API keys securely
+- Performs secure file destruction using multi-pass overwrite
+- Communicates with all ESP32 modules
+
+---
+
+###  Arduino Uno – Peripheral Controller
+
+- Interfaces with RFID reader
+- Reads RFID card UID
+- Controls OLED display
+- Sends UID data to ESP32-A
+- Remains isolated from network and cloud access
+
+---
+
+###  RFID Module
+
+- Provides physical authentication
+- Enables tap-based user verification
+- Prevents remote-only access attacks
+
+---
+
+###  OLED Display
+
+Displays real-time system status such as:
+- Waiting for authentication
+- Authentication success or failure
+- Encryption in progress
+- Cloud upload/download status
+- System locked or error states
+
+---
+
+##  Overall System Architecture
+
+The system is divided into **three security layers**:
+
+1. **Physical Authentication Layer** – RFID, Arduino Uno, ESP32-A
+2. **Control & Enforcement Layer** – ESP32-B and ESP32-C
+3. **Processing & Cloud Layer** – Raspberry Pi Zero 2 W
+
+
+ ### Architecture Diagram
+
+ ![System Architecture Diagram](./diagram.png)
+
+
+### **Related Work**
+The concepts in FECS complement hardware-authenticated secure cloud storage systems. For reference, see [Hardware Authenticated Secure Cloud Storage System](https://github.com/Thunder9954/Hardware-Authenticated-Secure-Cloud-Storage-System.git).
+
+---
+
 ## 🔬 Research Foundation
 
 FECS is built on principles from multiple disciplines:
@@ -213,6 +388,8 @@ FECS is built on principles from multiple disciplines:
 - **Security Architecture**
 - **Zero-Trust Models**
 - **Fault-Tolerant Systems**
+- **Hardware Security**
+- **Cloud Native Design**
 
 ---
 
@@ -226,6 +403,8 @@ We welcome inquiries about:
 - 🔬 **Research** partnerships
 - 📚 **Academic** inquiries
 - 💡 **Feedback** and suggestions
+- 🖥️ **Hardware** integration
+- ☁️ **Cloud** deployment
 
 ---
 
@@ -234,8 +413,8 @@ We welcome inquiries about:
 **Purn Vadodariya**  
 *Architect & Lead Developer*
 
-📧 **Email**: [purnvadodariya57@gmail.com](mailto:purnvadodariya57@gmail.com)  
-🔗 **LinkedIn**: [Purn Vadodariya](https://www.linkedin.com/in/purnvadodariya)
+📧 **Email**: [purn872008@gmail.com](mailto:purn872008@gmail.com)  
+🔗 **GitHub**: [Thunder9954](https://github.com/Thunder9954)
 
 ---
 
@@ -247,6 +426,7 @@ Please include in your inquiry:
 - Budget range
 - Preferred contact method
 - Timeline for implementation
+- Hardware platform (if applicable)
 
 ---
 
@@ -258,6 +438,7 @@ Please include in your inquiry:
 - ✅ Regular security reviews
 - ✅ Continuous improvement process
 - ✅ Independent verification ready
+- ✅ Hardware security best practices
 
 ---
 
@@ -268,8 +449,8 @@ Please include in your inquiry:
 | **Phase 1** | ✅ Complete | Core architecture |
 | **Phase 2** | ✅ Complete | Prototype validation |
 | **Phase 3** | ✅ Complete | Performance optimization |
-| **Phase 4** | 🔄 In Progress | Enterprise release |
-| **Phase 5** | 📅 Planned | Cloud-native deployment |
+| **Phase 4** | ✅ Complete | Hardware validation (RPi, ESP32) |
+| **Phase 5** | 🔄 In Progress | Enterprise release |
 | **Phase 6** | 📅 Planned | AI-enhanced security |
 
 ---
@@ -284,6 +465,8 @@ FECS is built on the principle that **security must be inherent, not bolted on**
 4. **Fail Securely** - Secure failure modes
 5. **Privacy by Design** - Privacy built in from the start
 6. **Continuous Verification** - Always verifying integrity
+7. **Hardware Trust** - Leveraging hardware security features
+8. **Cloud Native** - Designed for modern cloud environments
 
 ---
 
@@ -309,14 +492,21 @@ Licensing, collaboration, and enterprise adoption inquiries are welcome.
 - ❌ Proprietary techniques
 - ❌ Full specifications
 - ❌ Source code
+- ❌ Specific architecture details
+- ❌ Internal data flows
+- ❌ Component interactions
 
 **The following ARE available:**
 - ✅ Capabilities overview
 - ✅ Benefits and use cases
-- ✅ Architectural concepts
+- ✅ Architectural concepts (high-level)
 - ✅ Performance claims
 - ✅ Value proposition
 - ✅ Licensing information
+- ✅ Contact details
+- ✅ Roadmap
+- ✅ Hardware validation status
+- ✅ Cloud deployment readiness
 
 ---
 
@@ -331,6 +521,8 @@ Licensing, collaboration, and enterprise adoption inquiries are welcome.
 ---
 
 **The true innovation lies in the orchestration of security mechanisms—the "how" remains confidential.**
+
+**Validated on Raspberry Pi, ESP32, and major cloud platforms.**
 
 ---
 
@@ -348,6 +540,8 @@ Licensing, collaboration, and enterprise adoption inquiries are welcome.
 | ✅ Enable deniability | 🎭 Methods protected |
 | ✅ Scale effectively | 📈 Demonstrated (public) |
 | ✅ Meet compliance | 📋 Documented (public) |
+| ✅ Hardware integration | 🖥️ Validated (public) |
+| ✅ Cloud deployment | ☁️ Ready (public) |
 
 ---
 
@@ -358,10 +552,13 @@ Licensing, collaboration, and enterprise adoption inquiries are welcome.
 | ✅ Capabilities | ❌ Implementation |
 | ✅ Benefits | ❌ Algorithms |
 | ✅ Use cases | ❌ Specific methods |
-| ✅ Architecture concepts | ❌ Proprietary techniques |
-| ✅ Performance claims | ❌ Trade secrets |
-| ✅ Value proposition | ❌ Core mechanisms |
-| ✅ Compliance | ❌ Full specifications |
+| ✅ High-level concepts | ❌ Architecture details |
+| ✅ Performance claims | ❌ Data flows |
+| ✅ Value proposition | ❌ Component interactions |
+| ✅ Compliance | ❌ Proprietary techniques |
+| ✅ Contact info | ❌ Trade secrets |
+| ✅ Hardware validation | ❌ Implementation specifics |
+| ✅ Cloud readiness | ❌ Deployment details |
 
 ---
 
@@ -382,6 +579,15 @@ Licensing, collaboration, and enterprise adoption inquiries are welcome.
 **Q: What support is available?**
 **A:** Support tiers range from basic email to enterprise-level dedicated support.
 
+**Q: How does recovery work?**
+**A:** The system includes automated recovery mechanisms—specific methods are proprietary.
+
+**Q: What hardware platforms are supported?**
+**A:** Validated on Raspberry Pi, ESP32, x86_64, and ARM64 platforms.
+
+**Q: Is FECS cloud-ready?**
+**A:** Yes, fully validated on AWS, Azure, GCP, and private cloud environments.
+
 ---
 
 <div align="center">
@@ -394,8 +600,5 @@ Licensing, collaboration, and enterprise adoption inquiries are welcome.
 **Interested in licensing?**  
 [Inquire Here](#-connect-with-us)
 
----
-
-*Ready to secure your data with FECS? Let's talk.*
-
 </div>
+
