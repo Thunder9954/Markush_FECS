@@ -87,13 +87,6 @@ graph TB
     C --> D
     D --> E
     D --> F
-    
-    style A fill:#e3f2fd
-    style B fill:#4CAF50,color:#fff
-    style C fill:#2196F3,color:#fff
-    style D fill:#FF9800,color:#fff
-    style E fill:#9C27B0,color:#fff
-    style F fill:#F44336,color:#fff
 ```
 
 ---
@@ -112,11 +105,6 @@ graph LR
     P1 --> P2
     P2 --> P3
     P3 --> P4
-    
-    style P1 fill:#4CAF50,color:#fff
-    style P2 fill:#2196F3,color:#fff
-    style P3 fill:#FF9800,color:#fff
-    style P4 fill:#9C27B0,color:#fff
 ```
 
 ---
@@ -138,13 +126,6 @@ flowchart LR
         D --> E[Store]
         E --> F[Secure Output]
     end
-    
-    style A fill:#e3f2fd
-    style B fill:#4CAF50,color:#fff
-    style C fill:#2196F3,color:#fff
-    style D fill:#FF9800,color:#fff
-    style E fill:#9C27B0,color:#fff
-    style F fill:#F44336,color:#fff
 ```
 
 ---
@@ -165,12 +146,6 @@ graph TB
     S2 --> S3
     S3 --> S4
     S4 --> S5
-    
-    style S1 fill:#4CAF50,color:#fff
-    style S2 fill:#2196F3,color:#fff
-    style S3 fill:#FF9800,color:#fff
-    style S4 fill:#9C27B0,color:#fff
-    style S5 fill:#F44336,color:#fff
 ```
 
 ---
@@ -185,12 +160,6 @@ flowchart TB
         C --> D[Verification]
         D --> E[Restoration]
     end
-    
-    style A fill:#e3f2fd
-    style B fill:#FFF9C4
-    style C fill:#4CAF50,color:#fff
-    style D fill:#2196F3,color:#fff
-    style E fill:#9C27B0,color:#fff
 ```
 
 ---
@@ -291,9 +260,7 @@ Integrity:          ████████████████████
 
 ## 🖥️ Hardware & Cloud Validation
 
-FECS has been successfully test across in low level hardware :
-
-##  Hardware and Module Overview
+FECS has been successfully tested across low-level hardware platforms:
 
 ### ESP32 Modules (Three Units)
 
@@ -330,7 +297,7 @@ Functions:
 
 ---
 
-###  Arduino Uno – Peripheral Controller
+### Arduino Uno – Peripheral Controller
 
 - Interfaces with RFID reader
 - Reads RFID card UID
@@ -340,7 +307,7 @@ Functions:
 
 ---
 
-###  RFID Module
+### RFID Module
 
 - Provides physical authentication
 - Enables tap-based user verification
@@ -348,7 +315,7 @@ Functions:
 
 ---
 
-###  OLED Display
+### OLED Display
 
 Displays real-time system status such as:
 - Waiting for authentication
@@ -359,21 +326,20 @@ Displays real-time system status such as:
 
 ---
 
-##  Overall System Architecture
+## Overall System Architecture
 
 The system is divided into **three security layers**:
 
 1. **Physical Authentication Layer** – RFID, Arduino Uno, ESP32-A
 2. **Control & Enforcement Layer** – ESP32-B and ESP32-C
 3. **Processing & Cloud Layer** – Raspberry Pi Zero 2 W
+4. **Cloud** - Google Cloud ( Google Cloud usag ) 
 
+### Architecture Diagram
 
- ### Architecture Diagram
+![System Architecture Diagram](./diagram.png)
 
- ![System Architecture Diagram](./diagram.png)
-
-
-### **Related Work**
+### Related Work
 The concepts in FECS complement hardware-authenticated secure cloud storage systems. For reference, see [Hardware Authenticated Secure Cloud Storage System](https://github.com/Thunder9954/Hardware-Authenticated-Secure-Cloud-Storage-System.git).
 
 ---
@@ -395,7 +361,7 @@ FECS is built on principles from multiple disciplines:
 
 ## 📬 Connect With Us
 
-### **Interested in Learning More?**
+### Interested in Learning More?
 
 We welcome inquiries about:
 - 🤝 **Collaboration** opportunities
@@ -408,7 +374,7 @@ We welcome inquiries about:
 
 ---
 
-### **Contact Information**
+### Contact Information
 
 **Purn Vadodariya**  
 *Architect & Lead Developer*
@@ -418,7 +384,7 @@ We welcome inquiries about:
 
 ---
 
-### **For Commercial Inquiries**
+### For Commercial Inquiries
 Please include in your inquiry:
 - Organization name
 - Intended use case
@@ -481,35 +447,6 @@ Licensing, collaboration, and enterprise adoption inquiries are welcome.
 
 ---
 
-## ⚠️ Important Notice
-
-**This document provides only a high-level overview of FECS capabilities.**
-
-**The following are NOT disclosed:**
-- ❌ Implementation details
-- ❌ Core algorithms and methods
-- ❌ Security mechanisms
-- ❌ Proprietary techniques
-- ❌ Full specifications
-- ❌ Source code
-- ❌ Specific architecture details
-- ❌ Internal data flows
-- ❌ Component interactions
-
-**The following ARE available:**
-- ✅ Capabilities overview
-- ✅ Benefits and use cases
-- ✅ Architectural concepts (high-level)
-- ✅ Performance claims
-- ✅ Value proposition
-- ✅ Licensing information
-- ✅ Contact details
-- ✅ Roadmap
-- ✅ Hardware validation status
-- ✅ Cloud deployment readiness
-
----
-
 <div align="center">
 
 ---
@@ -527,38 +464,6 @@ Licensing, collaboration, and enterprise adoption inquiries are welcome.
 ---
 
 </div>
-
----
-
-## 📌 Quick Reference
-
-| What We Do | How We Do It |
-|------------|--------------|
-| ✅ Protect data | 🔐 Proprietary methods |
-| ✅ Provide recovery | 🔄 Confidential techniques |
-| ✅ Ensure integrity | ✅ Verifiable (public) |
-| ✅ Enable deniability | 🎭 Methods protected |
-| ✅ Scale effectively | 📈 Demonstrated (public) |
-| ✅ Meet compliance | 📋 Documented (public) |
-| ✅ Hardware integration | 🖥️ Validated (public) |
-| ✅ Cloud deployment | ☁️ Ready (public) |
-
----
-
-## 🔒 Protection Summary
-
-| Revealed | Protected |
-|----------|-----------|
-| ✅ Capabilities | ❌ Implementation |
-| ✅ Benefits | ❌ Algorithms |
-| ✅ Use cases | ❌ Specific methods |
-| ✅ High-level concepts | ❌ Architecture details |
-| ✅ Performance claims | ❌ Data flows |
-| ✅ Value proposition | ❌ Component interactions |
-| ✅ Compliance | ❌ Proprietary techniques |
-| ✅ Contact info | ❌ Trade secrets |
-| ✅ Hardware validation | ❌ Implementation specifics |
-| ✅ Cloud readiness | ❌ Deployment details |
 
 ---
 
@@ -585,8 +490,6 @@ Licensing, collaboration, and enterprise adoption inquiries are welcome.
 **Q: What hardware platforms are supported?**
 **A:** Validated on Raspberry Pi, ESP32, x86_64, and ARM64 platforms.
 
-**Q: Is FECS cloud-ready?**
-**A:** Yes, fully validated on AWS, Azure, GCP, and private cloud environments.
 
 ---
 
@@ -600,5 +503,6 @@ Licensing, collaboration, and enterprise adoption inquiries are welcome.
 **Interested in licensing?**  
 [Inquire Here](#-connect-with-us)
 
-</div>
+---
 
+</div>
