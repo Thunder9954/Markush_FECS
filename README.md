@@ -339,6 +339,10 @@ The system is divided into **three security layers**:
 
 ![System Architecture Diagram](./diagram.png)
 
+### Demo Prototype 
+
+![Demo Prototype ](./diagram2.png)
+
 ### Related Work
 The concepts in FECS complement hardware-authenticated secure cloud storage systems. For reference, see [Hardware Authenticated Secure Cloud Storage System](https://github.com/Thunder9954/Hardware-Authenticated-Secure-Cloud-Storage-System.git).
 
